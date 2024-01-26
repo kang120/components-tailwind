@@ -148,22 +148,21 @@ const VerticalNavbar = () => {
           className="fixed w-full h-0 bg-sky-950"
         >
           <div className="py-6 flex flex-col items-center">
-            <div
-              className="vertical-navbar"
-              onClick={() => console.log("gggg")}
-            >
-              <FontAwesomeIcon icon={faHouse} className="text-lg" />
-              <a className="ms-4">Home</a>
-            </div>
+            <div className="max-h-60">
+              <div className="vertical-navbar">
+                <FontAwesomeIcon icon={faHouse} className="text-lg" />
+                <a className="ms-4">Home</a>
+              </div>
 
-            <div className="vertical-navbar">
-              <FontAwesomeIcon icon={faHouse} className="text-lg" />
-              <a className="ms-4">Home</a>
-            </div>
+              <div className="vertical-navbar">
+                <FontAwesomeIcon icon={faHouse} className="text-lg" />
+                <a className="ms-4">Home</a>
+              </div>
 
-            <div className="vertical-navbar">
-              <FontAwesomeIcon icon={faHouse} className="text-lg" />
-              <a className="ms-4">Home</a>
+              <div className="vertical-navbar">
+                <FontAwesomeIcon icon={faHouse} className="text-lg" />
+                <a className="ms-4">Home</a>
+              </div>
             </div>
 
             <div className="mt-8 px-16 text-center">
