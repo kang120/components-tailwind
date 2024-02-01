@@ -2,7 +2,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.css";
 
-const Navbar = () => {
+const Navbar1 = () => {
   const collapseNavbar = () => {
     const collapse = document.getElementById("collapse-navbar");
 
@@ -67,4 +67,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar1;

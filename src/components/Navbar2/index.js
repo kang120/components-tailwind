@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.css";
 import { useEffect, useRef, useState } from "react";
 
-const VerticalNavbar = () => {
+const Navbar2 = () => {
   const navbarRef = useRef(null);
   const navbarCollapseRef = useRef(null);
   const [bodyClicked, setBodyClicked] = useState(false);
@@ -183,4 +183,4 @@ const VerticalNavbar = () => {
   );
 };
 
-export default VerticalNavbar;
+export default Navbar2;
