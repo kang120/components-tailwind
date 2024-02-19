@@ -1,0 +1,39 @@
+.dot-1 {
+    animation: dot1 4s linear infinite;
+}
+
+.dot-2 {
+    animation: dot2 4s linear infinite;
+}
+
+.dot-3 {
+}
+
+.dot-4 {
+}
+
+.dot-5 {
+}
+
+.dot-6 {
+}
+
+.dot-7 {
+}
+
+.dot-8 {
+}
+
+@keyframes dot1 {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 100%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
